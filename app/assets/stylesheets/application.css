@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css */
+
+/* Add your styles here or import other stylesheets */
+/*@import "normalize.css"; /* Example import */
+
+/* Your custom styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
