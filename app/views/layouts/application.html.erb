@@ -2,14 +2,18 @@
 <html>
   <head>
     <title>Todaysmeal</title>
+   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= { "data-turbo-track": "reload" } %>
     <%= javascript_importmap_tags %>
+     <%= stylesheet_link_tag 'dashboard', media: 'all', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <div class="navbar">helloworld</div>
+  
+  <%= render partial: "shared/navbar"%>
     <%= yield %>
   </body>
 </html>
